@@ -2,10 +2,11 @@
 
 Befor you setup project you have to install `NASM` first
 
-### Geting start
-| Command | Description |
-| ------- | ----------- |
-| `python3 activate.py` or `./activate.sh` | start hello world project |
+### How to setup
+
+`git clone https://github.com/nanashi10211/command_line_env_for_nasm_assembly.git` 
+
+`python3 activate.py` or `./activate.sh` | start hello world project
 
 ### before running `./activate.sh` run `chmod +x activate.sh` first
 
