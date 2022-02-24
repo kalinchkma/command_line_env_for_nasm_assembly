@@ -16,6 +16,9 @@ or
 ```bash
 ./activate.sh 
 ``` 
-
 ### before running `./activate.sh` run `chmod +x activate.sh` first
+to stop
+```bash
+ctr + c
+```
 
