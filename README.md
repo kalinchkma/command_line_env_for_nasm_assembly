@@ -1,7 +1,6 @@
 # command line environment for `NASM` assembly language
 
-Befor you setup project you to install `NASM` first
-==================================================
+Befor you setup project you have to install `NASM` first
 
 ### Geting start
 | Command | Description |
