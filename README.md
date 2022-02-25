@@ -1,6 +1,7 @@
 # command line environment for `NASM` assembly language
 
 Befor you setup project you have to install `NASM` first
+[+] This is only for `UNIX` system
 
 ### How to setup
 
