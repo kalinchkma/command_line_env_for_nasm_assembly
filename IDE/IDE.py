@@ -39,11 +39,14 @@ class IDE():
         file_n = entryFile.split(".")
         file_n = file_n[0]
         output = self.config['outDir']
-        os.system(f"cd {source} && nasm -f elf {entryFile}")
-        os.system(f"ld -m elf_i386 -s -o {source}/{file_n} {source}/{file_n}.o")
-        os.system(f"mv {source}/{file_n}.o {output}/")
-        os.system(f"mv {source}/{file_n} {output}/")
-        os.system(f"./{output}/{file_n}")
+        try:
+            os.system(f"cd {source} && nasm -f elf {entryFile}")
+            os.system(f"ld -m elf_i386 -s -o {source}/{file_n} {source}/{file_n}.o")
+            os.system(f"mv {source}/{file_n}.o {output}/")
+            os.system(f"mv {source}/{file_n} {output}/")
+            os.system(f"./{output}/{file_n}")
+        except:
+            print('Error:\n %s' % sys.exc_info()[0])
         
     # private
     def __envCheck(self)->None:

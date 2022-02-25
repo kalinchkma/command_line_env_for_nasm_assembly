@@ -1,15 +1,17 @@
-%include        'functions.asm'                        
- 
-SECTION .data
-msg1    db      'Hello, world!', 0Ah
- 
-SECTION .text
-global  _start
- 
-_start:
- 
-    mov     eax, msg1       
-    call    sprint         
+section .data
+msg db 'hello world! this is awesome', 0xa;
+len equ $ - msg
 
- 
-    call    quit            
+section .text
+	global _start
+
+_start:
+	mov edx,len 
+	mov ecx, msg
+	mov ebx, 1
+	mov eax, 4
+	int 0x80
+
+
+	mov eax, 1
+	int 0x80

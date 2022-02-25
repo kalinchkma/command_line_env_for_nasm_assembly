@@ -44,8 +44,10 @@ class Watcher():
             self.call_fun()
 
     def call_fun(self):
-        print("\n\t\tOutput")
-        print("\t\t======\n")
+        print("[+]: compiling........")
+        time.sleep(self.refresh_delay)
+        print("\t\tOutput")
+        print("\t\t======")
         print("--------------------------------------")
         if self.call_fun_on_change is not None:
             self.call_fun_on_change()
