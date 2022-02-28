@@ -1,7 +1,7 @@
 # command line environment for `NASM` assembly language
 
 Befor you setup project you have to install `NASM` first
-[+] This is only for `UNIX` system
+[+] This is only for `UNIX` system, `make sure you have latest version of Python`
 
 ### How to setup
 
