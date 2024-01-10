@@ -1,7 +1,7 @@
 # command line environment for `NASM` assembly language
 
-Befor you setup project you have to install `NASM` first
-[+] This is only for `UNIX` system ,  `make sure you have latest version of Python` 
+Before you set up the project you have to install `NASM` first
+[+] This is only for the `UNIX` system,  `make sure you have the latest version of Python` 
 
 ### How to setup
 
@@ -9,7 +9,7 @@ Befor you setup project you have to install `NASM` first
 git clone https://github.com/nanashi10211/command_line_env_for_nasm_assembly.git
 ```` 
 
-### start hello world project
+### Start hello world project
 ```bash
 python3 activate.py 
 ```
